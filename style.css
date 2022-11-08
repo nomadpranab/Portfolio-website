@@ -1,0 +1,15 @@
+body{
+    margin:0px;
+}
+
+header{
+    height : 80vh;
+    width : 100vw;
+    background-image: url("abc.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    background-attachment: fixed;
+    
+}
+
