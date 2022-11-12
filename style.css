@@ -8,6 +8,8 @@ body{
     padding: 0px;
    
 }
+
+
 header{
     height : 80vh;
     width : 100vw;
@@ -38,6 +40,7 @@ header{
 }
 
 .nav a{
+    padding-left: 10px;
     text-decoration: none;
     color: white;
     font-size: 20px;
@@ -138,4 +141,215 @@ header{
     letter-spacing: 2px;
     word-spacing: 4px;
 }
+#skills{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(67, 67, 67);
+    
+}
+
+#skills h1{
+    
+    padding-top: 10vh;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 8px;
+    margin-bottom: 10vh;
+}
+
+.skills-display{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height : 40%;
+    width:80%;
+    padding:8px;
+    box-shadow:0px 0px 20px 5px rgb(255, 40, 40);
+    
+    
+}
+.skill-progress {
+    
+    
+    height: 1.5rem;
+    width:7rem;
+    color:black;
+    background-color: black;
+    border-radius : 0.9rem;
+
+}
+.percentage1 {
+    
+    height: 1.5rem;
+    width: 6.3rem;
+    background-color: red;
+    border-radius: 0.2rem;
+}
+.percentage1 p{
+    margin-left: 10px;
+    color:white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.percentage2 {
+    
+    height: 1.5rem;
+    width: 6.7rem;
+    background-color: red;
+    border-radius: 0.2rem;
+}
+.percentage2 p{
+    margin-left: 10px;
+    color:white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.percentage3 {
+    
+    height: 1.5rem;
+    width: 6rem;
+    background-color: red;
+    border-radius: 0.2rem;
+}
+.percentage3 p{
+    margin-left: 10px;
+    color:white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.percentage4 {
+    
+    height: 1.5rem;
+    width: 5.5rem;
+    background-color: red;
+    border-radius: 0.2rem;
+}
+.percentage4 p{
+    margin-left: 10px;
+    color:white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.percentage5 {
+    
+    height: 1.5rem;
+    width: 4.5rem;
+    background-color: red;
+    border-radius: 0.2rem;
+}
+.percentage5 p{
+    margin-left: 10px;
+    color:white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.percentage6 {
+    
+    height: 1.5rem;
+    width: 4rem;
+    background-color: red;
+    border-radius: 0.2rem;
+}
+.percentage6 p{
+    margin-left: 10px;
+    color:white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+#projects{
+    height: 60vh;
+    width: 100vw;
+    margin: -5px;
+    padding: 0px;
+    background-color: rgb(26, 26, 26);
+    
+    
+}
+#projects h1{
+    color:white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+#project-tile{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    width: 80vw;
+    padding: 5px;
+    margin-left : 10vw;
+    margin-top: 5vh;
+    box-shadow:0px 0px 20px 5px rgb(48, 48, 48);
+    
+}
+
+#hidden-tiles{
+    display: flex;
+    height:25vh;
+    width: 30vw;
+    margin-left: 30px;
+    background-image: linear-gradient(black,rgb(27, 27, 27));
+}
+
+#hangman{
+    display: flex;
+    height:25vh;
+    width: 30vw;
+    margin-right: 30px;
+    background-image: linear-gradient(black,rgb(27, 27, 27));
+    
+}
+#project-tile h2 {
+    
+    color:white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    align-items: center;
+    text-align: center;
+    padding-left: 10vw;
+    padding-top:12vh;
+    letter-spacing: 2px;
+}
+
+#project-tile h2 a{
+    text-decoration: none;
+    color: white;
+}
+#project-tile h2 a:hover{
+    border-radius: 0.5rem;
+    transition: border-radius 0.5s;
+    color: red;
+    transition: color 0.5s;
+    box-shadow: 0px 0px 10px 5px red;
+    transition: box-shadow 0.5s;
+}
+
+
+
+
+    
+
     
