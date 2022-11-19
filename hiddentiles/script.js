@@ -67,7 +67,7 @@ $("#start").click(function () {
 });
 
 // Emoji or Puzzle elements box
-let code = ["X", "🎁", "Miss"];
+let code = ["X", "🎁", "O"];
 
 // called when all stages are completed
 function hugeSuccess() {
